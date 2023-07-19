@@ -36,6 +36,7 @@
       "@genshin-optimizer/gi-assets": ["libs/gi-assets/src/index.ts"],
       "@genshin-optimizer/gi-formula": ["libs/gi-formula/src/index.ts"],
       "@genshin-optimizer/gi-good": ["libs/gi-good/src/index.ts"],
+      "@genshin-optimizer/gi-sheets": ["libs/gi-sheets/src/index.ts"],
       "@genshin-optimizer/gi-stats": ["libs/gi-stats/src/index.ts"],
       "@genshin-optimizer/gi-svgicons": ["libs/gi-svgicons/src/index.ts"],
       "@genshin-optimizer/gi-util": ["libs/gi-util/src/index.ts"],
