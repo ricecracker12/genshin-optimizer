@@ -30,7 +30,7 @@ const set2 = greaterEq(input.artSet.GildedDreams, 2, 80, KeyMap.info('eleMas'))
 const [condPassivePath, condPassive] = cond(key, 'passive')
 
 const teamSameNum = lookup(input.charEle, tally, zero)
-// Do not include wielder (maybe)
+// Do not include wielder
 const autoSameNum = greaterEq(teamSameNum, 2, sum(teamSameNum, -1))
 
 const autoOtherNum = sum(
@@ -126,6 +126,7 @@ const sheet: IArtifactSheet = {
         {
           header: setHeader(4),
           teamBuff: true,
+          canShow: equal(condPassive, 'on', 1),
           path: condOverrideSamePath,
           value: condOverrideSame,
           name: trm('overrideSameCond'),
@@ -137,6 +138,7 @@ const sheet: IArtifactSheet = {
         {
           header: setHeader(4),
           teamBuff: true,
+          canShow: equal(condPassive, 'on', 1),
           path: condOverrideOtherPath,
           value: condOverrideOther,
           name: trm('overrideOtherCond'),
