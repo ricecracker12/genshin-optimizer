@@ -87,72 +87,80 @@ export function BuildCard({
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onEdit}
-              disabled={!onEdit}
-            >
-              <span>
+            <span>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onEdit}
+                disabled={!onEdit}
+              >
                 <EditIcon />
-              </span>
-            </IconButton>
+              </IconButton>
+            </span>
           </Tooltip>
           <Tooltip
             title={<Typography>Copy to TC Builds</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onCopyToTc}
-              disabled={!onCopyToTc}
-            >
-              <ScienceIcon />
-            </IconButton>
+            <span>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onCopyToTc}
+                disabled={!onCopyToTc}
+              >
+                <ScienceIcon />
+              </IconButton>
+            </span>
           </Tooltip>
           <Tooltip
             title={<Typography>Duplicate Build</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onDupe}
-              disabled={!onDupe}
-            >
-              <ContentCopyIcon />
-            </IconButton>
+            <span>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onDupe}
+                disabled={!onDupe}
+              >
+                <ContentCopyIcon />
+              </IconButton>
+            </span>
           </Tooltip>
           <Tooltip
             title={<Typography>Equip Build</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onEquip}
-              disabled={!onEquip}
-            >
-              <CheckroomIcon />
-            </IconButton>
+            <span>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onEquip}
+                disabled={!onEquip}
+              >
+                <CheckroomIcon />
+              </IconButton>
+            </span>
           </Tooltip>
           <Tooltip
             title={<Typography>Delete Build</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="error"
-              size="small"
-              onClick={onRemove}
-              disabled={!onRemove}
-            >
-              <DeleteForeverIcon />
-            </IconButton>
+            <span>
+              <IconButton
+                color="error"
+                size="small"
+                onClick={onRemove}
+                disabled={!onRemove}
+              >
+                <DeleteForeverIcon />
+              </IconButton>
+            </span>
           </Tooltip>
         </CardActions>
       )}
