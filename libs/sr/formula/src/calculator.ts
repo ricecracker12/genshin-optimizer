@@ -8,12 +8,16 @@ import {
 import type { Member, Read, Sheet, Tag } from './data/util'
 import { reader, tagStr } from './data/util'
 
-const emptyInfo: Info = Object.freeze({ conds: Object.freeze({}) })
+const emptyInfo: Info = Object.freeze({
+  conds: Object.freeze({}),
+  buffs: new Map(),
+})
 const { arithmetic } = calculation
 
 type MemRec<V> = Partial<Record<Member, V>>
 /// conds[dst][src][sheet][name]
 type CondInfo = MemRec<MemRec<Partial<Record<Sheet, Record<string, number>>>>>
+type BuffInfo = Map<Tag, CalcResult<number, CalcMeta>>
 
 export type CalcMeta = PartialMeta & Info
 export type PartialMeta = {
@@ -21,7 +25,7 @@ export type PartialMeta = {
   op: 'const' | 'sum' | 'prod' | 'min' | 'max' | 'sumfrac' | 'res'
   ops: CalcResult<number, PartialMeta>[]
 }
-type Info = { conds: CondInfo }
+type Info = { conds: CondInfo; buffs: BuffInfo }
 
 export class Calculator extends Base<CalcMeta> {
   override computeMeta(
@@ -46,7 +50,7 @@ export class Calculator extends Base<CalcMeta> {
     }
     function wrap(result: CalcResult<number | string, PartialMeta>): CalcMeta {
       const meta = result.meta as CalcMeta
-      const reuse = meta.conds === info.conds
+      const reuse = Object.entries(info).every(([k, v]) => meta[k] === v)
       return withTag(tag, reuse ? meta : { ...meta, ...info })
     }
 
@@ -92,7 +96,7 @@ export class Calculator extends Base<CalcMeta> {
   override markGathered(
     tag: Tag,
     _n: AnyNode,
-    result: CalcResult<string | number, CalcMeta>
+    result: CalcResult<any, CalcMeta>
   ): CalcResult<string | number, CalcMeta> {
     let dirty = false
     const val = result.val
@@ -104,6 +108,11 @@ export class Calculator extends Base<CalcMeta> {
         [dst ?? null!]: { [src ?? null!]: { [sheet!]: { [q!]: val } } },
       }
       dirty = true
+    }
+    if (tag.et?.endsWith('Buff') && tag.sheet !== 'relic') {
+      const old = meta.buffs
+      meta.buffs = mergeBuff(old, new Map([[tag, result]]))
+      dirty ||= old !== meta.buffs
     }
     Object.freeze(meta)
     return dirty ? { val, meta } : result
@@ -128,13 +137,20 @@ function extract<V>(
   x: CalcResult<V, CalcMeta>,
   info: Info
 ): CalcResult<V, PartialMeta> {
-  const { conds, ...meta } = x.meta
+  const { conds, buffs, ...meta } = x.meta
   info.conds = mergeConds(info.conds, conds)
+  info.buffs = mergeBuff(info.buffs, buffs)
   return Object.isFrozen(x.meta) ? x : { val: x.val, meta }
 }
 
 function mergeConds(a: CondInfo, b: CondInfo): CondInfo {
   return merge(a, b, (_, v) => (typeof v === 'number' ? v : undefined))
+}
+function mergeBuff(a: BuffInfo, b: BuffInfo): BuffInfo {
+  const result = new Map([...a, ...b])
+  if (result.size === a.size) return a
+  if (result.size === b.size) return b
+  return result
 }
 function merge<T extends Record<string, any>>(
   a: T,
