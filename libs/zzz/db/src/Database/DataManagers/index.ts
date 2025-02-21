@@ -1,3 +1,5 @@
 export * from './CharacterDataManager'
+export * from './CharacterOptManager'
 export * from './DiscDataManager'
+export * from './OptConfigDataManager'
 export * from './WengineDataManager'

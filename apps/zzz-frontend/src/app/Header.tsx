@@ -64,6 +64,12 @@ const optimize: ITab = {
   to: '/optimize',
   value: 'optimize',
 }
+const optimizePando: ITab = {
+  i18Key: 'tabs.optimize_pando',
+  icon: <CalculateIcon />,
+  to: '/optimize-pando',
+  value: 'optimize-pando',
+}
 
 const settings: ITab = {
   i18Key: 'tabs.settings',
@@ -100,6 +106,7 @@ export default function Header({ anchor }: { anchor: string }) {
 const maincontent = [
   discs,
   optimize,
+  ...(shouldShowDevComponents ? [optimizePando] : []),
   ...(shouldShowDevComponents ? [characters] : []),
   ...(shouldShowDevComponents ? [wengines] : []),
   settings,
@@ -208,6 +215,7 @@ function DesktopHeader({
 const mobileContent = [
   discs,
   optimize,
+  ...(shouldShowDevComponents ? [optimizePando] : []),
   ...(shouldShowDevComponents ? [characters] : []),
   ...(shouldShowDevComponents ? [wengines] : []),
   settings,
