@@ -236,6 +236,18 @@
   "PrepProgress": {
     "name": "Прогресс подготовки"
   },
+  "BlazingSpirit": {
+    "name": "Пылающее воодушевление"
+  },
+  "FortuneCoin": {
+    "name": "Монета удачи"
+  },
+  "SightseeingExperience": {
+    "name": "Опыт исследований"
+  },
+  "TreasuredInsights": {
+    "name": "Ценные наблюдения"
+  },
   "Primogem": {
     "name": "Камень Истока"
   },
@@ -298,6 +310,9 @@
   },
   "ChroniclesOfTheRealms": {
     "name": "Летопись сфер"
+  },
+  "PrismaticCrystal": {
+    "name": "Призматические кристаллы"
   },
   "PyroSigil": {
     "name": "Печать Пиро"
@@ -1109,6 +1124,21 @@
   "Nefer": {
     "name": "Нефер"
   },
+  "Durin": {
+    "name": "Дурин"
+  },
+  "Jahoda": {
+    "name": "Ягода"
+  },
+  "Columbina": {
+    "name": "Коломбина"
+  },
+  "Zibai": {
+    "name": "Цзы Бай"
+  },
+  "Illuga": {
+    "name": "Иллуги"
+  },
   "KachinasStellaFortuna": {
     "name": "Удача Качины"
   },
@@ -1171,6 +1201,21 @@
   },
   "NefersStellaFortuna": {
     "name": "Удача Нефер"
+  },
+  "DurinsStellaFortuna": {
+    "name": "Удача Дурина"
+  },
+  "JahodasStellaFortuna": {
+    "name": "Удача Ягоды"
+  },
+  "ColumbinasStellaFortuna": {
+    "name": "Удача Коломбины"
+  },
+  "ZibaisStellaFortuna": {
+    "name": "Удача Цзы Бай"
+  },
+  "IllugasStellaFortuna": {
+    "name": "Удача Иллуги"
   },
   "Apple": {
     "name": "Яблоко"
@@ -2907,7 +2952,7 @@
     "name": "Пейзаж долины Ветров"
   },
   "CyrusLetterToIris": {
-    "name": "Письмо Сайруса для Юй Ся"
+    "name": "Письмо Сайруса для Айрис"
   },
   "PictureOfDragonspine": {
     "name": "Пейзаж Драконьего хребта"
@@ -3628,6 +3673,12 @@
   },
   "MidsommarBerry": {
     "name": "Летника"
+  },
+  "WinterIcelea": {
+    "name": "Шпороцветник"
+  },
+  "PineAmber": {
+    "name": "Сосновый янтарь"
   },
   "BirchWood": {
     "name": "Берёза"
@@ -8108,6 +8159,99 @@
   "SugarSculptureNefer": {
     "name": "Сахарная фигурка: Нефер"
   },
+  "AfterClassPractice": {
+    "name": "Домашняя работа"
+  },
+  "AppleStewTrialVersion": {
+    "name": "Тушёное мясо с яблоками (пробная версия)"
+  },
+  "SuspiciousSpicedFriedChicken": {
+    "name": "Странные пряные куриные наггетсы"
+  },
+  "SpicedFriedChicken": {
+    "name": "Пряные куриные наггетсы"
+  },
+  "DeliciousSpicedFriedChicken": {
+    "name": "Вкусные пряные куриные наггетсы"
+  },
+  "SugarSculptureJahoda": {
+    "name": "Сахарная фигурка: Ягода"
+  },
+  "SugarSculptureKuuhenki": {
+    "name": "Сахарная фигурка: Куухенки"
+  },
+  "SuspiciousLuckySnowDelight": {
+    "name": "Странная «Снежная услада»"
+  },
+  "LuckySnowDelight": {
+    "name": "«Снежная услада»"
+  },
+  "DeliciousLuckySnowDelight": {
+    "name": "Вкусная «Снежная услада»"
+  },
+  "SuspiciousCrispySpringRolls": {
+    "name": "Странные жареные весенние рулетики"
+  },
+  "CrispySpringRolls": {
+    "name": "Жареные весенние рулетики"
+  },
+  "DeliciousCrispySpringRolls": {
+    "name": "Вкусные жареные весенние рулетики"
+  },
+  "SuspiciousBerryHerbalCandy": {
+    "name": "Странные ягодно-цветочные конфеты"
+  },
+  "BerryHerbalCandy": {
+    "name": "Ягодно-цветочные конфеты"
+  },
+  "DeliciousBerryHerbalCandy": {
+    "name": "Вкусные ягодно-цветочные конфеты"
+  },
+  "SuspiciousVeggiePotSoup": {
+    "name": "Странный овощной суп в горшочке"
+  },
+  "VeggiePotSoup": {
+    "name": "Овощной суп в горшочке"
+  },
+  "DeliciousVeggiePotSoup": {
+    "name": "Вкусный овощной суп в горшочке"
+  },
+  "SuspiciousFiresideMerriment": {
+    "name": "Странный «Прыжок через костёр»"
+  },
+  "FiresideMerriment": {
+    "name": "«Прыжок через костёр»"
+  },
+  "DeliciousFiresideMerriment": {
+    "name": "Вкусный «Прыжок через костёр»"
+  },
+  "SuspiciousMushroomPhantasm": {
+    "name": "Странный «Грибной фантазм»"
+  },
+  "MushroomPhantasm": {
+    "name": "«Грибной фантазм»"
+  },
+  "DeliciousMushroomPhantasm": {
+    "name": "Вкусный «Грибной фантазм»"
+  },
+  "FlavorOfSpring": {
+    "name": "Вкус весны"
+  },
+  "MoonlitMirage": {
+    "name": "Лунный мираж"
+  },
+  "NightwatchSoup": {
+    "name": "Суп ночного дозорного"
+  },
+  "SugarSculptureColumbina": {
+    "name": "Сахарная фигурка: Коломбина"
+  },
+  "SugarSculptureIlluga": {
+    "name": "Сахарная фигурка: Иллуги"
+  },
+  "CharredMushroomPhantasm": {
+    "name": "Обугленный «Грибной фантазм»"
+  },
   "RecipeItem": {
     "name": "Ингредиенты"
   },
@@ -8879,6 +9023,27 @@
   "RecipeLohikeitto": {
     "name": "Рецепт: Лохикейтто"
   },
+  "RecipeSpicedFriedChicken": {
+    "name": "Рецепт: Пряные куриные наггетсы"
+  },
+  "RecipeLuckySnowDelight": {
+    "name": "Рецепт: «Снежная услада»"
+  },
+  "RecipeCrispySpringRolls": {
+    "name": "Рецепт: Жареные весенние рулетики"
+  },
+  "RecipeBerryHerbalCandy": {
+    "name": "Рецепт: Ягодно-цветочные конфеты"
+  },
+  "RecipeVeggiePotSoup": {
+    "name": "Рецепт: Овощной суп в горшочке"
+  },
+  "RecipeFiresideMerriment": {
+    "name": "Рецепт: «Прыжок через костёр»"
+  },
+  "RecipeMushroomPhantasm": {
+    "name": "Рецепт: «Грибной фантазм»"
+  },
   "CraftedItems": {
     "name": "Созданные Предметы"
   },
@@ -9428,6 +9593,15 @@
   "MistshroudHelmet": {
     "name": "Туманный шлем"
   },
+  "FracturedEyeOfTheDeepShadow": {
+    "name": "Расколотый глаз глубокой тьмы"
+  },
+  "AberrantCoreOfTheDeepShadow": {
+    "name": "Аномальное ядро глубокой тьмы"
+  },
+  "HookedBeakOfTheDeepShadow": {
+    "name": "Клюв глубокой тьмы"
+  },
   "HurricaneSeed": {
     "name": "Семя урагана"
   },
@@ -9664,6 +9838,21 @@
   },
   "RadiantAntler": {
     "name": "Сияющий рог"
+  },
+  "CyclicMilitaryKuuvahkiCore": {
+    "name": "Циклическое военное ядро куувяки"
+  },
+  "MaskOfTheVirtuousDoctor": {
+    "name": "Маска мудрого лекаря"
+  },
+  "MadmansRestraint": {
+    "name": "Оковы безумца"
+  },
+  "ElixirOfTheHeretic": {
+    "name": "Еретический эликсир"
+  },
+  "RemnantOfTheDreadwing": {
+    "name": "Останки крыла ужаса"
   },
   "TileOfDecarabiansTower": {
     "name": "Плитка башни Декарабиана"
@@ -10021,6 +10210,9 @@
   },
   "MaskedBallInvitationLetter": {
     "name": "Приглашение на маскарад"
+  },
+  "SetGiftBoxGallop": {
+    "name": "Подарочный набор «Галоп»"
   },
   "BEP": {
     "name": "Опыт Боевого пропуска"
@@ -12962,8 +13154,14 @@
   "SomeonesLostPassword": {
     "name": "Потерянный пароль"
   },
+  "MemorataCognoscentisJest": {
+    "name": "Розыгрыш хранителя памяти"
+  },
   "InscriptaCognoscentisFeather": {
     "name": "Перо цвета ночи"
+  },
+  "DevocinaCognoscentisSorrow": {
+    "name": "Скорбь поклонника"
   },
   "WeavenexaCognoscentisIntoxication": {
     "name": "Чарующий кубок"
@@ -12976,6 +13174,9 @@
   },
   "SomeonesRequestForHelp": {
     "name": "Чья-то просьба о помощи"
+  },
+  "SpareBunkerHandwheel": {
+    "name": "Запасной маховик убежища"
   },
   "BountyTokenTrickstersRedSatin": {
     "name": "Жетон заказа: Красный шёлк трюкача"
@@ -13040,6 +13241,15 @@
   "SomeonesResearchNotes": {
     "name": "Чьи-то исследовательские записи"
   },
+  "TierIBunkerAccessCard": {
+    "name": "Ключ-карта убежища: Основной доступ"
+  },
+  "TierIIBunkerAccessCard": {
+    "name": "Ключ-карта убежища: Продвинутый доступ"
+  },
+  "TierIIIBunkerAccessCard": {
+    "name": "Ключ-карта убежища: Полный доступ"
+  },
   "Toolkit": {
     "name": "Набор реквизита"
   },
@@ -13087,6 +13297,18 @@
   },
   "OrderedNotes": {
     "name": "Упорядоченные записи"
+  },
+  "GoldenKey": {
+    "name": "Золотой ключ"
+  },
+  "SilverKey": {
+    "name": "Серебряный ключ"
+  },
+  "IronKey": {
+    "name": "Железный ключ"
+  },
+  "StrangeIronCoin": {
+    "name": "Странная железная монета"
   },
   "ConchNotebook": {
     "name": "Блокнот Раковины"
@@ -13139,14 +13361,212 @@
   "HalfBurnedPage": {
     "name": "Наполовину сгоревшая страница"
   },
+  "AgedPinecone": {
+    "name": "Старая шишка"
+  },
+  "AgedRye": {
+    "name": "Старая рожь"
+  },
   "CuratoriumFunds": {
     "name": "Средства Куратория тайн"
+  },
+  "ShutterflashKamera": {
+    "name": "Фотокамера «Особые мгновения»"
+  },
+  "TheShiniestAndBrightestBerylConch": {
+    "name": "Самая яркая и блестящая берилловая ракушка"
+  },
+  "RhinedottirsGift": {
+    "name": "«Подарок» Рэйндоттир"
+  },
+  "RaggedDoll": {
+    "name": "Потрёпанная кукла"
+  },
+  "ScribbledLetter": {
+    "name": "Небрежно написанное письмо"
+  },
+  "MoonPrayerNightPamphlet": {
+    "name": "Путеводитель «Ночь лунной молитвы»"
+  },
+  "GreetingCardForColumbina": {
+    "name": "Открытка для Коломбины"
+  },
+  "MoonPrayerCandyFromColumbina": {
+    "name": "Конфеты лунной молитвы Коломбины"
+  },
+  "TheSoulblazerSagaVolume2": {
+    "name": "Сага Пылких Сердец II"
+  },
+  "TaleOfDurin": {
+    "name": "История Дурина"
+  },
+  "LanternRiteGiftGiftOfRadiantNight": {
+    "name": "Дар сияющей ночи"
+  },
+  "LanternRiteGiftGiftOfSeekingLight": {
+    "name": "Дар ищущих света"
+  },
+  "LanternRiteGiftGiftOfDistantLonging": {
+    "name": "Дар воспоминаний"
+  },
+  "LanternRiteGiftGiftOfJoyousWishes": {
+    "name": "Дар радостных желаний"
+  },
+  "LanternRiteGiftGiftOfVenerableVirtue": {
+    "name": "Дар почитания"
+  },
+  "LanternRiteGiftGiftOfGuidingMoonlight": {
+    "name": "Дар лунного света"
+  },
+  "AncientIncantations": {
+    "name": "Древние заклинания"
+  },
+  "Wish": {
+    "name": "Мечтания"
+  },
+  "Moonlight": {
+    "name": "Лунный свет"
+  },
+  "LostNotesIV": {
+    "name": "Потерянные записи IV"
+  },
+  "LostNotesII": {
+    "name": "Потерянные записи II"
+  },
+  "LostNotesI": {
+    "name": "Потерянные записи I"
+  },
+  "IrismoonSeal": {
+    "name": "Печать Радужной Луны"
+  },
+  "TheWhiteHorseAdeptusMeetsTheWhiteHorseAdeptusInLiyueHarbor": {
+    "name": "«Адепт Белая Лошадь встречает Адепта Белую Лошадь в гавани Ли Юэ»"
+  },
+  "AnAncientPoem": {
+    "name": "Древнее стихотворение"
+  },
+  "MarionettesNotebook": {
+    "name": "Блокнот Марионетки"
+  },
+  "LostNotesIII": {
+    "name": "Потерянные записи III"
+  },
+  "ProspectorsCommand": {
+    "name": "Приказ о разведке ресурсов"
+  },
+  "ThatWhichHasLostItsPower": {
+    "name": "То, что утратило силу"
+  },
+  "FreshRye": {
+    "name": "Свежая рожь"
+  },
+  "TheFirstIronCoin": {
+    "name": "«Первая железная монета»"
+  },
+  "SilverLampwick": {
+    "name": "Серебряный фитиль"
+  },
+  "UnknownPersonsAbandonedDiary": {
+    "name": "Дневник неизвестного"
+  },
+  "NeatlyWrittenDiaryI": {
+    "name": "Аккуратный дневник I"
+  },
+  "NeatlyWrittenDiaryII": {
+    "name": "Аккуратный дневник II"
+  },
+  "NeatlyWrittenDiaryIII": {
+    "name": "Аккуратный дневник III"
+  },
+  "ForgottenKey": {
+    "name": "Забытый ключ"
+  },
+  "AncientLogCarterScherbius": {
+    "name": "Древний журнал (Картер Шербиус)"
+  },
+  "AncientLogAlainGuillotin": {
+    "name": "Древний журнал (Ален Гильотен)"
+  },
+  "AncientLogJakobIngold": {
+    "name": "Древний журнал (Жакоб Ингольд)"
+  },
+  "TheResearchNotesOfMasterRuggiero": {
+    "name": "Исследовательские записи мастера Руджеро"
+  },
+  "TheBiographyOfGuillotinDeluxeEdition": {
+    "name": "Биография Гильотена (Премиальное переиздание)"
+  },
+  "TheHistoryOfTheDeclineAndFallOfRemuria": {
+    "name": "Закат и падение Ремурии"
+  },
+  "TimeTrekker": {
+    "name": "Путешественник во времени"
+  },
+  "AutomnequiSermonDictationConcerningTheApocalypse": {
+    "name": "Проповеди Атонеки: Об апокалипсисе"
+  },
+  "AutomnequiSermonDictationExplicationsOnTheChymicalMarriage": {
+    "name": "Проповеди Атонеки: Толкование химической свадьбы"
+  },
+  "GreatDetectiveHurlockTheAlchemistAndTheClockworkSaint": {
+    "name": "Великий детектив Харлок: Алхимик и Заводной святой"
+  },
+  "DamagedLogs": {
+    "name": "Повреждённый журнал"
+  },
+  "BloodstainedLogs": {
+    "name": "Запятнанный кровью журнал"
+  },
+  "MessilyWrittenNotes": {
+    "name": "Запись неровным почерком"
+  },
+  "CommunicationsLog": {
+    "name": "Переписка"
+  },
+  "TerminalLog": {
+    "name": "Журнал терминала"
+  },
+  "NoteClippedInABook": {
+    "name": "Записка, вложенная в книгу"
+  },
+  "AMessageFromTheLegendaryThiefReedMiller": {
+    "name": "Послание Великого вора Рида Миллера"
+  },
+  "BrahesNotesI": {
+    "name": "Записи Браге I"
+  },
+  "BrahesNotesII": {
+    "name": "Записи Браге II"
+  },
+  "BrahesNotesIII": {
+    "name": "Записи Браге III"
+  },
+  "BrahesNotesIV": {
+    "name": "Записи Браге IV"
+  },
+  "LetterBuriedInTheTimeCapsule": {
+    "name": "Письмо из капсулы времени"
+  },
+  "ABriefHistoryOfThePaleStarborn": {
+    "name": "Краткая история Рождённых Бледной звездой"
+  },
+  "NightMurmursFromTheFarBorderVarcolac": {
+    "name": "Ночной шёпот издалека: Варколак"
+  },
+  "TalesCarriedByTheNorthwind": {
+    "name": "Сказания северного ветра"
+  },
+  "AncientHandwriting": {
+    "name": "Древние письмена"
   },
   "TearsAmongTheStars": {
     "name": "Слёзы средь звёзд"
   },
   "ObsidianAncientName": {
     "name": "Древнее имя из обсидиана"
+  },
+  "MoonPrayerBlossomFromColumbina": {
+    "name": "Цветок лунной молитвы Коломбины"
   },
   "SilkFlowerSeed": {
     "name": "Семена шелковицы"
@@ -13270,6 +13690,12 @@
   },
   "LakkaberrySeed": {
     "name": "Семена ягоды лакка"
+  },
+  "WinterIceleaSeed": {
+    "name": "Семена шпороцветника"
+  },
+  "PineAmberSeed": {
+    "name": "Семена соснового янтаря"
   },
   "Medaka": {
     "name": "Оризия"
@@ -14039,6 +14465,30 @@
   "RadiantSpincrystal168": {
     "name": "Лучистый кристалл 168"
   },
+  "RadiantSpincrystal169": {
+    "name": "Лучистый кристалл 169"
+  },
+  "RadiantSpincrystal170": {
+    "name": "Лучистый кристалл 170"
+  },
+  "RadiantSpincrystal171": {
+    "name": "Лучистый кристалл 171"
+  },
+  "RadiantSpincrystal172": {
+    "name": "Лучистый кристалл 172"
+  },
+  "RadiantSpincrystal173": {
+    "name": "Лучистый кристалл 173"
+  },
+  "RadiantSpincrystal174": {
+    "name": "Лучистый кристалл 174"
+  },
+  "RadiantSpincrystal175": {
+    "name": "Лучистый кристалл 175"
+  },
+  "RadiantSpincrystal176": {
+    "name": "Лучистый кристалл 176"
+  },
   "LanternFiber": {
     "name": "Волокно для фонарей"
   },
@@ -14050,6 +14500,18 @@
   },
   "XiaoLantern": {
     "name": "Небесный фонарь"
+  },
+  "CelebratoryXiaoLantern": {
+    "name": "Праздничный небесный фонарь"
+  },
+  "GiftXiaoLantern": {
+    "name": "Подарочный небесный фонарь"
+  },
+  "XiaoLanternFlightManual": {
+    "name": "Руководство по небесным фонарям"
+  },
+  "MoonLightsTheSkySpringBlossomsHigh": {
+    "name": "Свет фонарей в лунном сиянии"
   },
   "RimeWornFragment": {
     "name": "Инеевый осколок"
@@ -14131,6 +14593,9 @@
   },
   "GoldenStrings": {
     "name": "Золотые струны"
+  },
+  "RefinedHeart": {
+    "name": "Закалка сердца"
   },
   "FalconsDance": {
     "name": "Танец сокола"
@@ -15059,6 +15524,36 @@
   "TravelNotesBygoneRuins": {
     "name": "Руины"
   },
+  "DurinRadiantHeart": {
+    "name": "Сияющее сердце"
+  },
+  "JahodaHelpingHand": {
+    "name": "Рука помощи"
+  },
+  "TravelNotesBlazingSnow": {
+    "name": "Пылающий снег"
+  },
+  "CelebrationDreamReader": {
+    "name": "В объятиях книг"
+  },
+  "ColumbinaSomeday": {
+    "name": "Когда-нибудь"
+  },
+  "ZibaiVeiledVista": {
+    "name": "Дымка"
+  },
+  "IllugaNightmareSongbird": {
+    "name": "Соловей кошмара"
+  },
+  "AchievementFarSighted": {
+    "name": "Взгляд вдаль"
+  },
+  "NodKraiLanternOfLongestNight": {
+    "name": "Ночной фонарь"
+  },
+  "TravelNotesLanternlitOde": {
+    "name": "Сияние фонарей"
+  },
   "EchoDandelionKnight": {
     "name": "Эхо: Рыцарь Одуванчик"
   },
@@ -15103,6 +15598,12 @@
   },
   "EchoPhysicOfPurity": {
     "name": "Эхо: Средоточие чистоты"
+  },
+  "EchoKreideprinz": {
+    "name": "Эхо: Принц мела"
+  },
+  "EchoFleeingSunlight": {
+    "name": "Эхо: Ускользающее солнце"
   },
   "FaintGlow": {
     "name": "Бледный свет"
@@ -15433,6 +15934,12 @@
   },
   "LunarArcanaCase": {
     "name": "Шкатулка лунных арканов"
+  },
+  "TheLittleWitchsDictionary": {
+    "name": "Словарь маленькой ведьмы"
+  },
+  "JadelightCanopy": {
+    "name": "Нефритовый зонт"
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Инструкции: Камень эха анемокула"
@@ -15917,6 +16424,48 @@
   "EagerAndReady": {
     "name": "Не терпится"
   },
+  "SharpObserver": {
+    "name": "Наблюдение и исследование"
+  },
+  "TeaTime": {
+    "name": "Время чаепития"
+  },
+  "MerchantsAura": {
+    "name": "Аура торговца"
+  },
+  "IngeniousForesight": {
+    "name": "Остроумие и предусмотрительность"
+  },
+  "CelebrityCountenance": {
+    "name": "Звёздный образ"
+  },
+  "CoolWatcher": {
+    "name": "Спокойное наблюдение"
+  },
+  "SignOfProsperity": {
+    "name": "Предвестие богатства"
+  },
+  "CaseOverview": {
+    "name": "Осмотр"
+  },
+  "SnapshotEssentials": {
+    "name": "Основы скетчинга"
+  },
+  "UnderControl": {
+    "name": "Всё под контролем"
+  },
+  "TalismanicGrace": {
+    "name": "Талисман"
+  },
+  "TheArtOfCreation": {
+    "name": "Закон созидания"
+  },
+  "AdeptalArtisanry": {
+    "name": "Искусство Адепта"
+  },
+  "ByDecree": {
+    "name": "Это закон"
+  },
   "FantasticalMarvel": {
     "name": "Чудесная идея"
   },
@@ -15976,6 +16525,9 @@
   },
   "VigorousYapping": {
     "name": "Активное общение"
+  },
+  "DiligentStudy": {
+    "name": "Усердное обучение"
   },
   "RhodeiaOfLoch": {
     "name": "Родия"
@@ -16069,6 +16621,12 @@
   },
   "HydroTulpa": {
     "name": "Гидротульпа"
+  },
+  "BlackSerpentKnightRockbreakerAx": {
+    "name": "Рыцарь Чёрного Змея: Крушащая камни секира"
+  },
+  "ConsecratedHornedCrocodile": {
+    "name": "Священный рогатый крокодил"
   },
   "UndividedHeart": {
     "name": "Неразделённое сердце"
@@ -16442,6 +17000,24 @@
   "FlowConvergence": {
     "name": "Слияние потоков"
   },
+  "TeaPartiesBurstingWithColor": {
+    "name": "Красочные чаепития"
+  },
+  "BringerOfBlessing": {
+    "name": "Несущий благословение"
+  },
+  "OnceStoodAgainstTheTideOfDarkWatersLikeBedrock": {
+    "name": "«Когда-то сдерживал потоки чёрных вод, как скала...»"
+  },
+  "FarToFall": {
+    "name": "Нескончаемое падение"
+  },
+  "TrailsAmidstTheForestFog": {
+    "name": "Следы в лесном тумане"
+  },
+  "DeathlyOverflow": {
+    "name": "Смертельный прибой"
+  },
   "MagicGuide": {
     "name": "Руководство по магии"
   },
@@ -16772,6 +17348,15 @@
   "NoblesseOblige": {
     "name": "Церемония древней знати"
   },
+  "NymphsDream": {
+    "name": "Сон нимфы"
+  },
+  "StarcallersWatch": {
+    "name": "Бдение взывающего к звёздам"
+  },
+  "FlameForgedInsight": {
+    "name": "Выкованное пламенем озарение"
+  },
   "LiyueHarborWharf": {
     "name": "Гавань Ли Юэ"
   },
@@ -16957,6 +17542,12 @@
   },
   "AdventurersGuild": {
     "name": "Гильдия искателей приключений"
+  },
+  "Seymour": {
+    "name": "Сеймур"
+  },
+  "BonaAndCocouik": {
+    "name": "Бона и Кокоуик"
   },
   "ElementalResonanceWovenIce": {
     "name": "Элементальный резонанс: Переплетение Крио"
@@ -17174,6 +17765,9 @@
   "NarrationFootnotes": {
     "name": "Примечания к истории"
   },
+  "BrokenSea": {
+    "name": "Расколотое море"
+  },
   "ABlessingFromM": {
     "name": "Благословение «М.»"
   },
@@ -17182,6 +17776,18 @@
   },
   "AnAncientSacrificeOfSacredBrocade": {
     "name": "Древняя жертва Священной кометы"
+  },
+  "LostLegaciesInTheSand": {
+    "name": "Наследие песков"
+  },
+  "TheNarzissenkreuzAdventure": {
+    "name": "Великое приключение в Нарциссенкрейце"
+  },
+  "PlanToSaveTheWorld": {
+    "name": "План спасения мира"
+  },
+  "AnAdventureThroughTheMorningMist": {
+    "name": "«Путешествие сквозь утренний туман»"
   },
   "Origin": {
     "name": "Изначальный"
@@ -17254,6 +17860,12 @@
   },
   "SeaOfBygoneErasSlumber": {
     "name": "Море древности: Сон"
+  },
+  "FontaLakelightLuminescence": {
+    "name": "Фонта: Озёрный свет"
+  },
+  "SeaOfBygoneErasCrown": {
+    "name": "Море древности: Венец"
   },
   "BeginnerPlayerBadge": {
     "name": "Значок Новичка"
@@ -17338,6 +17950,18 @@
   },
   "AdventuresInBlazingHue": {
     "name": "Пылающие приключения"
+  },
+  "AsHeavenAndEarthAreMadeAnew": {
+    "name": "И заново сотворены небо и земля"
+  },
+  "TowardTheDistantHorizon": {
+    "name": "К дальним горизонтам"
+  },
+  "MelusentGift": {
+    "name": "Подарок мелюзин"
+  },
+  "RainlitBambooReverie": {
+    "name": "Бамбуковые грёзы в дождь"
   },
   "RadiantPhantasm": {
     "name": "Сияющий фантазм"
@@ -17903,6 +18527,24 @@
   "CloudWrappedMoon": {
     "name": "В объятиях облаков"
   },
+  "TheLonelyWayfarer": {
+    "name": "Одинокий путник"
+  },
+  "TimelessShine": {
+    "name": "Вечное сияние"
+  },
+  "LightweightMetalLamp": {
+    "name": "Лёгкая металлическая лампа"
+  },
+  "StandingStreetLampEfficiencyMaxed": {
+    "name": "Уличный фонарь: Максимальная эффективность"
+  },
+  "VibrantXiaoLanternMayMyWishTravelFar": {
+    "name": "Блистательный небесный фонарь: Пусть моё желание сбудется"
+  },
+  "VibrantXiaoLanternAMeetingWithFriends": {
+    "name": "Блистательный небесный фонарь: Увидимся, друг"
+  },
   "EfflorescentIllumination": {
     "name": "Флуоресцентное освещение"
   },
@@ -18152,6 +18794,9 @@
   "IndoorLongTableMarksOfLove": {
     "name": "Длинный стол для дома: Кропотливая забота"
   },
+  "WhispersInTheMoonlight": {
+    "name": "Шёпот под луной"
+  },
   "BreezeBlessedBed": {
     "name": "Кровать благословения ветра"
   },
@@ -18184,6 +18829,9 @@
   },
   "TavernBedNotGreatNotTerrible": {
     "name": "Кровать из таверны: В самый раз"
+  },
+  "SimpleCareBed": {
+    "name": "Медицинская кровать"
   },
   "PineReceptionCounter": {
     "name": "Приёмная стойка из сосны"
@@ -18304,6 +18952,9 @@
   },
   "FactoryStoolMultiroleSeatingDevice": {
     "name": "Заводской табурет: Многоцелевое устройство для сидения"
+  },
+  "ToAFriend": {
+    "name": "Моему другу"
   },
   "NorthernStoneHearth": {
     "name": "Северный каменный очаг"
@@ -18499,6 +19150,12 @@
   },
   "MultifunctionalPedunculateOakWoodCatTree": {
     "name": "Многофункциональное кошачье дерево из черешчатого дуба"
+  },
+  "SimpleStretcherSteadyEvacuation": {
+    "name": "Обычные носилки: Надёжная переноска"
+  },
+  "BottomsUp": {
+    "name": "До дна!"
   },
   "HiddenSecrets": {
     "name": "Скрытые тайны"
@@ -18824,6 +19481,15 @@
   "ModelDishSaurusCrackers": {
     "name": "Модель блюда: Заврианское печенье"
   },
+  "GleamGlow": {
+    "name": "Блеск и сияние"
+  },
+  "LuckySpin": {
+    "name": "Колесо удачи"
+  },
+  "BurstOfAppetite": {
+    "name": "Взрыв аппетита"
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "«Постижения из страны мудрости»"
   },
@@ -18949,6 +19615,12 @@
   },
   "TavernDartboardValidThrow": {
     "name": "Дартс для таверны: Меткий бросок"
+  },
+  "TavernNoticeWhispersOfTheStreet": {
+    "name": "Объявления таверны: Городские слухи"
+  },
+  "FlagOfPiramida": {
+    "name": "Флаг Пирамиды"
   },
   "LingeringMoment": {
     "name": "Затянувшееся мгновение"
@@ -19724,6 +20396,27 @@
   "SteelboundSecrecy": {
     "name": "Стальная тайна"
   },
+  "AdjustableMetalBarrier": {
+    "name": "Регулируемый металлический барьер"
+  },
+  "SolitudeInTheCityOfTheEverWatchful": {
+    "name": "Одиночество в городе вечного бдения"
+  },
+  "ShelterInTheCityOfTheEverWatchful": {
+    "name": "Убежище в городе вечного бдения"
+  },
+  "ACornerOfOnesOwn": {
+    "name": "Собственный уголок"
+  },
+  "CareInTheCityOfTheEverWatchful": {
+    "name": "Забота в городе вечного бдения"
+  },
+  "ForgeInTheCityOfTheEverWatchful": {
+    "name": "Ковка в городе вечного бдения"
+  },
+  "StarshynaWalking": {
+    "name": "Шествие Старшины"
+  },
   "BirdAndBlossomDesignFountain": {
     "name": "Фонтан с птицами и цветами"
   },
@@ -20342,6 +21035,15 @@
   "SoftHuedHydrangeas": {
     "name": "Нежные гортензии"
   },
+  "PetalsWithoutPerfume": {
+    "name": "Лепестки без аромата"
+  },
+  "LushVerdure": {
+    "name": "Пышное цветение"
+  },
+  "BrightVerdure": {
+    "name": "Зелёное цветение"
+  },
   "FirShelves": {
     "name": "Полки из пихты"
   },
@@ -20906,6 +21608,9 @@
   "SmallCargoContainerSafeStowage": {
     "name": "Малый грузовой контейнер: Надёжное хранение"
   },
+  "UtilityPocketDetector": {
+    "name": "Карманный детектор"
+  },
   "WeatheredBambooFence": {
     "name": "Ветхая бамбуковая ограда"
   },
@@ -21143,6 +21848,9 @@
   "LeisurelyFeast": {
     "name": "Пир в часы отдыха"
   },
+  "WarmAndCozy": {
+    "name": "Теплота и уют"
+  },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "Витрина для вина: Сколько душе угодно"
   },
@@ -21272,6 +21980,30 @@
   "PuzzlepalKeepCalmAndCarryOn": {
     "name": "Друг-разгадчик: Хладнокровие и решительность"
   },
+  "OneSecWhiz": {
+    "name": "Быстроделкин"
+  },
+  "GrillmasterSupreme": {
+    "name": "Великий мастер гриля"
+  },
+  "WobblyPonyRide": {
+    "name": "Лошадка-качалка"
+  },
+  "VerticalBipolarTriLegTower": {
+    "name": "Вертикальная трёхопорная башня"
+  },
+  "CommandWithConfidence": {
+    "name": "Командуй с уверенностью"
+  },
+  "SimpleWeaponRackEasyAccess": {
+    "name": "Стойка для оружия: Быстро и просто"
+  },
+  "LightkeepersMovingLighthouse": {
+    "name": "Маяк на колёсах"
+  },
+  "ShimmerOfLife": {
+    "name": "Мерцание жизни"
+  },
   "SirCapyOfTheLongIncisors": {
     "name": "Капибальеро Дон Зубастик"
   },
@@ -21283,5 +22015,17 @@
   },
   "LoafingKitty": {
     "name": "Котик-хлебушек"
+  },
+  "LittleFinchie": {
+    "name": "Маленький зяблик"
+  },
+  "GourmetBandit": {
+    "name": "Вор вкусняшек"
+  },
+  "MasterWeaselmind": {
+    "name": "Хитрый хорь"
+  },
+  "DragonOnTheMove": {
+    "name": "Атака дракона"
   }
 }

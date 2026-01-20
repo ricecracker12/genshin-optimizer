@@ -49,6 +49,7 @@
   "Absolution": "Expiadora",
   "PeakPatrolSong": "Himno de las Cumbres",
   "Azurelight": "Fulgor Cerúleo",
+  "AthameArtis": "Athame Artis",
   "WasterGreatsword": "Gran Espada del Guerrero",
   "OldMercsPal": "Espada del Mercenario",
   "FerrousShadow": "Sombra Férrea",
@@ -179,6 +180,7 @@
   "VividNotions": "Reflexión Iridiscente",
   "NightweaversLookingGlass": "Espejo Tejenoches",
   "ReliquaryOfTruth": "Relicario de la Verdad",
+  "NocturnesCurtainCall": "Nocturno tras el Velo",
   "HuntersBow": "Arco del Cazador",
   "SeasonedHuntersBow": "Arco del Cazador Estacional",
   "RavenBow": "Arco de Cuervo",
@@ -213,6 +215,7 @@
   "ChainBreaker": "Rompecadenas",
   "SequenceOfSolitude": "Cadencia de la Soledad",
   "SnareHook": "Gancho Trampero",
+  "RainbowSerpentsRainBow": "Pluvioarco de la Serpiente Arcoíris",
   "SkywardHarp": "Alas Celestiales",
   "AmosBow": "Arco de Amos",
   "ElegyForTheEnd": "Elegía del Fin",
@@ -223,5 +226,6 @@
   "TheFirstGreatMagic": "El Primer Gran Número de Magia",
   "SilvershowerHeartstrings": "Corazón de la Lluvia",
   "AstralVulturesCrimsonPlumage": "Pluma Carmesí Buitreastral",
+  "TheDaybreakChronicles": "Albores de la Historia",
   "QuantumCatalyst": "Quantum Cat-alyst"
 }
